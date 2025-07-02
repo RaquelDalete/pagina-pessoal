@@ -15,7 +15,7 @@ Este é um projeto de **página pessoal responsiva** desenvolvida com HTML, CSS 
 
 ## 📸 Preview
 
-![Preview da Página]![image](https://github.com/user-attachments/assets/7fee5394-828c-47a1-96a7-bd874d82b905)
+![image](https://github.com/user-attachments/assets/7fee5394-828c-47a1-96a7-bd874d82b905)
 
 ---
 
