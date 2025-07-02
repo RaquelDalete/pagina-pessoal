@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Inclusão de um arquivo CSS externo que lida com a estilização da página -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+  <title>Minha Página Pessoal</title>
+</head>
+<body>
+  <header>
+    <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="/src/img/desenvolvedora_Fullstack.png" alt="foto do portfolio da Raquel">
+            </div>
+        </div>
+    <h1>Bem-vindo à minha Página Pessoal</h1> <!-- Título principal da página -->
+  </header>
+
+  
+  <!-- Menu de navegação com âncoras para as seções da página -->
+  <nav>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#formacao">Formação</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Meu nome é Raquel Dálete sou Desenvolvedora Fullstack.
+        Sou apaixonada por tecnologia, aprendizado contínuo e desafios criativos. Casada e mãe de dois, amo explorar o mundo ao lado deles, inventando histórias, brincando e descobrindo juntos novas possibilidades.
+        Nos meus momentos de lazer, gosto de ler, cozinhar, dançar e pintar — hobbies que me conectam com a criatividade e me inspiram também no trabalho.</p>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação e Competências Técnicas</h2>
+    <p>Sou graduanda em Análise e Desenvolvimento de Sistemas.Tenho conhecimento em Inglês (intermediário) e também certificação AWS Cloud Practitioner.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <p>Aqui estão alguns dos meus trabalhos:</p>
+    <ul>
+      <li><a href="https://daletportfolio.netlify.app/" target="_blank">- Portfólio Profissional</a></li>
+      <li><a href="https://claricee.netlify.app/" target="_blank">- Página Clarice</a></li>
+      <li><a href="https://harrypotteredp.netlify.app/" target="_blank">- Página Harry Potter</a></li>
+    </ul>
+  </section>
+
+  <!-- Seção de contato com formulário -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  <!-- Parágrafo onde será exibida a mensagem de sucesso ou erro -->
+    <p id="statusMensagem"></p>
+  </section>
+
+  
+  <!-- Rodapé da página -->
+  <footer>
+    &copy; 2025 Raquel Dálete. Todos os direitos reservados.
+  </footer>
+
+<!-- Inclusão de um arquivo JavaScript externo que lida com o envio do formulário -->
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
