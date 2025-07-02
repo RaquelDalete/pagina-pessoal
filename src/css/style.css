@@ -9,7 +9,7 @@
         background: linear-gradient(150deg, #000000, #9e00ff);
         background-size: 120% 120%;
     }
-
+/* Cabeçalho com imagem */
     header {
       color: white;
       padding: 1rem;
@@ -35,6 +35,7 @@
         animation: gradient-animation 5s ease infinite;
     }
 
+    /* Navegação */
     nav {
       display: flex;
       justify-content: center;
@@ -52,6 +53,7 @@
       text-decoration: underline;
     }
 
+   /* Seções */
     section {
       padding: 2rem;
       margin: 1rem auto;
